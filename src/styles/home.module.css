@@ -1,0 +1,35 @@
+.header {
+  grid-gap: 40px;
+  align-items: center;
+  text-align: center;
+}
+.header h2 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.header h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.body p {
+  max-width: 50vh;
+  text-align: justify;
+}
+
+.body img {
+  display: block;
+  margin: auto;
+
+  /* Images are inline elements, 
+  to center them, you can use 
+  text-align: center; or set them 
+  to display: block and set 
+  margin: 0 auto; */
+  max-width: 20%;
+  max-height: 20%;
+  border-radius: 30%;
+  overflow: hidden;
+}
