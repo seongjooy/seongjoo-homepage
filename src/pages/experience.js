@@ -1,21 +1,26 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/experience.module.css"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
-export default function experience() {
+export default function Experience() {
+  React.useEffect(() => {
+    Aos.init({ duration: 500 })
+  }, [])
   return (
     <Layout>
       <div>
-        <h1>Experience</h1>
-        <div className={styles.body}>
+        <h1 data-aos="zoom-in">Experience</h1>
+        <div className={styles.body} data-aos="zoom-in">
           <div className={styles.experience}>
             <div className={styles.description}>
               <b>Intern, ML Developer (May 2021 - June 2022)</b>
               <br />
               <em>Spass Co., Ltd.</em>
               <p>
-                • Regional fencing tournament for U-15 athletes
-                <br />• Placed first
+                •
+                <br />•
               </p>
             </div>
 

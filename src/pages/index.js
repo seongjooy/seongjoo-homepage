@@ -2,11 +2,16 @@ import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 export default function Home() {
+  React.useEffect(() => {
+    Aos.init({ duration: 600 })
+  }, [])
   return (
     <Layout>
-      <div className={styles.header}>
+      <div className={styles.header} data-aos="flip-left">
         <h2>Seong Joo Yoon</h2>
         <h3>
           Student at the University of Toronto
@@ -14,7 +19,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <div className={styles.body}>
+      <div className={styles.body} data-aos="flip-left">
         <img src="/dp.jpg" alt="display picture"></img>
         <p>
           <b>E-mail:</b> seongjooyoon@gmail.com
@@ -32,7 +37,7 @@ export default function Home() {
           time. <br />
         </p>
       </div>
-      <div className={styles.contacts}>
+      <div className={styles.contacts} data-aos="flip-left">
         <a
           href="https://www.linkedin.com/in/seongjooyoon"
           target="_blank"

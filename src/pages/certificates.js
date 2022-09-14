@@ -1,12 +1,17 @@
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/certificates.module.css"
+import Aos from "aos"
+import "aos/dist/aos.css"
 
-export default function certificates() {
+export default function Certificates() {
+  React.useEffect(() => {
+    Aos.init({ duration: 500 })
+  }, [])
   return (
     <Layout>
-      <h1>Certificates / Awards</h1>
-      <div className={styles.body}>
+      <h1 data-aos="zoom-in">Certificates / Awards</h1>
+      <div className={styles.body} data-aos="zoom-in">
         <div className={styles.certificates}>
           <div className={styles.description}>
             <b>Bias in AI (2022)</b>

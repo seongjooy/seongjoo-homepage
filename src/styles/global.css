@@ -38,15 +38,14 @@ nav a {
   font-weight: 400;
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
+  font-size: 18px;
 }
 nav a:hover {
-  color: rgb(160, 160, 160);
-  border-color: rgb(160, 160, 160);
+  font-weight: bold;
 }
 
 nav a:active {
-  color: black;
-  border-color: black;
+  color: rgba(0, 0, 0, 0.384);
 }
 
 footer p {
