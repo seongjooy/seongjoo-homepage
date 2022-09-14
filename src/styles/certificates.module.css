@@ -21,6 +21,11 @@
 .logo {
   flex: 1;
   margin-left: 20px;
-  width: 100px;
+  width: 150px;
   height: 150px;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.logo:hover {
+  filter: brightness(80%);
 }
