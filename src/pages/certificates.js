@@ -20,12 +20,15 @@ export default function Certificates() {
             <p>
               • Investigated bias in pre-trained language and
               <br /> image datasets due to bias in train sets
+              <br />
               <br />• Developed awareness of disadvantaged groups
               <br />
               impacted by biased AI models
+              <br />
               <br /> • Studied techniques to mitigate bias in computer <br />
               vision, including data augmentation and cost <br />
               function constraint terms
+              <br />
               <br />• Completed capstone project on identifying and <br />
               mitigating bias in healthcare data. Presented
               <br /> findings to Vector Institute and IRAP staff
@@ -42,6 +45,7 @@ export default function Certificates() {
             <em>University of Toronto</em>
             <p>
               • Awarded for a sessional GPA of at least 3.5
+              <br />
               <br />• Achieved in Fall 2019, Winter 2020
             </p>
           </div>
@@ -56,6 +60,7 @@ export default function Certificates() {
             <em>Euclid Mathematics Contest, University of Waterloo</em>
             <p>
               • Math contest for senior-level high school students
+              <br />
               <br />• Scored in the top 25% of participants
             </p>
           </div>
@@ -74,6 +79,7 @@ export default function Certificates() {
             <em>U-15 Men's Epee, Seoul Fencing Association</em>
             <p>
               • Regional fencing tournament for U-15 athletes
+              <br />
               <br />• Placed first
             </p>
           </div>

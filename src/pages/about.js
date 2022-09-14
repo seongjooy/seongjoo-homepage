@@ -14,7 +14,8 @@ export default function About() {
         <h1 data-aos="zoom-in">About</h1>
       </div>
       <div className={styles.body} data-aos="zoom-in">
-        <p>Text about myself</p>
+        <div className={styles.abouttext}>About Myself</div>
+        <div className={styles.education}>Education</div>
       </div>
     </Layout>
   )

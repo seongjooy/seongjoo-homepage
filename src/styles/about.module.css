@@ -3,4 +3,15 @@
 
 .body {
   background-color: antiquewhite;
+  display: flex;
+  padding: 50px 50px 50px 50px;
+}
+
+.abouttext {
+  flex: 1;
+}
+
+.education {
+  flex: 2;
+  background-color: rgb(156, 92, 92);
 }
