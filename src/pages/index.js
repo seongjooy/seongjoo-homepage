@@ -30,8 +30,49 @@ export default function Home() {
           My short-term goal spanning a few years is to decide on and put myself
           on track in an area of expertise that I will enjoy doing for a long
           time. <br />
-          <br />
         </p>
+      </div>
+      <div className={styles.contacts}>
+        <a
+          href="https://www.linkedin.com/in/seongjooyoon"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className={styles.contactbtn}
+            src="/linkedin_icon.png"
+            alt="linkedin link"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/stephanseongjoo/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className={styles.contactbtn}
+            src="/facebook_icon.png"
+            alt="facebook link"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/_seongjoo/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className={styles.contactbtn}
+            src="/insta_icon.png"
+            alt="instagram link"
+          />
+        </a>
+        <a href="https://github.com/seongjooy" target="_blank" rel="noreferrer">
+          <img
+            className={styles.contactbtn}
+            src="/github_icon.png"
+            alt="github link"
+          />
+        </a>
       </div>
     </Layout>
   )

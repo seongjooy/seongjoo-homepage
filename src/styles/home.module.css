@@ -33,3 +33,23 @@
   border-radius: 30%;
   overflow: hidden;
 }
+
+.contacts {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 50vh;
+}
+
+.contactbtn {
+  width: 60px;
+}
+
+.contactbtn:hover {
+  opacity: 30%;
+}
+
+.contactbtn:active {
+  filter: brightness(20%);
+}
