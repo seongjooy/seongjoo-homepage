@@ -1,17 +1,64 @@
-.header {
-}
-
 .body {
-  background-color: antiquewhite;
   display: flex;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 0px 0px 50px;
 }
 
 .abouttext {
   flex: 1;
+  text-align: justify;
 }
 
+.abouttext p {
+  font-size: 18px;
+  padding-right: 5px;
+  line-height: 1.5;
+}
 .education {
   flex: 2;
-  background-color: rgb(156, 92, 92);
+  padding-left: 60px;
+}
+
+.education h2 {
+  margin-bottom: 20px;
+}
+
+.education img {
+  width: 200px;
+  height: 100px;
+}
+
+.education p {
+  margin-left: 50px;
+}
+
+.school {
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.school p em {
+  font-size: 14px;
+}
+
+.photos {
+  margin-left: 50px;
+}
+
+.photos img {
+  max-width: 250px;
+  max-height: 300px;
+  justify-content: space-between;
+  border-radius: 3%;
+  margin: 20px 20px 0px 20px;
+}
+
+.photorow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.photorow figcaption {
+  margin-left: 20px;
+  font-size: 14px;
 }

@@ -10,7 +10,7 @@ export default function Navbar() {
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/experience">Experience</Link>
-        <Link to="/certificates">Certificates</Link>
+        <Link to="/certificates">Certificates / Awards</Link>
       </div>
     </nav>
   )
