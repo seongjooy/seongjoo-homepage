@@ -20,6 +20,26 @@ export default function Projects() {
                 C++, STL, Git
                 <br />
               </em>
+              <a
+                href="https://www.youtube.com/watch?v=_91wIJ_akvU&t=141s&ab_channel=JongjinJungn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="/dali.png"></img>
+              </a>
+            </div>
+            <div className={styles.projectdescription}>
+              Project description consisting of a few sentences and stack and
+              things you built the project on and the purpose
+            </div>
+          </div>
+
+          <div className={styles.project}>
+            <div className={styles.projectthumbnail}>
+              <h3>Gender Recognition from Images</h3>
+              <em>
+                Python, CV, Mini-Xception <br />
+              </em>
               <img src="/dali.png"></img>
             </div>
             <div className={styles.projectdescription}>
@@ -30,9 +50,9 @@ export default function Projects() {
 
           <div className={styles.project}>
             <div className={styles.projectthumbnail}>
-              <h3>Python Machine Learning Project</h3>
+              <h3>Predicting Onset of Septic Shock</h3>
               <em>
-                Python, Deep Learning, scikit-learn <br />
+                Python, Deep Learning, XGBoost <br />
               </em>
               <img src="/dali.png"></img>
             </div>
@@ -72,9 +92,9 @@ export default function Projects() {
 
           <div className={styles.project}>
             <div className={styles.projectthumbnail}>
-              <h3>Database Project</h3>
+              <h3>Dynamic Array Visualizer</h3>
               <em>
-                C++, STL, Git <br />
+                Javascript, React <br />
               </em>
               <img src="/dali.png"></img>
             </div>

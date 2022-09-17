@@ -23,8 +23,8 @@ export default function About() {
             <br />
             I'm a 3rd year student with a year of intern experience during the
             previous year where I learned machine learning model development
-            using tabular healthcare data. In my free time as of now, I like to
-            learn front-end dev because of the interactive nature that the
+            using tabular healthcare data. Currently in my free time, I like
+            learning front-end dev because of the interactive nature that the
             process provides. <br />
             <br />
             As a person, I'm a fencing hobbyist, a fan of the football club
@@ -113,7 +113,7 @@ export default function About() {
           <figure>
             <img src="/bangkok.png" alt="bangkok img"></img>
             <figcaption>
-              <em>Bangkok, 2022</em>
+              <em>Business Trip, Bangkok, 2022</em>
             </figcaption>
           </figure>
           <figure>
