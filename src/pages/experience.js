@@ -10,9 +10,9 @@ export default function Experience() {
   }, [])
   return (
     <Layout>
-      <div>
-        <h1 data-aos="zoom-in">Experience</h1>
-        <div className={styles.body} data-aos="zoom-in">
+      <div data-aos="zoom-in">
+        <h1>Experience</h1>
+        <div className={styles.body}>
           <div className={styles.experience}>
             <div className={styles.description}>
               <b>Intern, ML Developer (May 2021 - June 2022)</b>
