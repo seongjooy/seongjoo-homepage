@@ -27,12 +27,12 @@ export default function About() {
             learn front-end dev because of the interactive nature that the
             process provides. <br />
             <br />
-            As a person, I'm a fencing hobbyist, a fan of the football team
-            Borussia Dortmund, a fan of the League of Legends team Damwon Gaming
-            and a brother to one younger brother. I was born in Seoul but raised
-            in Vancouver, Toronto, Seoul, Istanbul and Madrid. I came back here
-            for university because of my good past memories of growing up here,
-            and so far I am happy I made that decision!
+            As a person, I'm a fencing hobbyist, a fan of the football club
+            Borussia Dortmund, a fan of Damwon Gaming and a brother to one
+            younger brother. I was born in Seoul but raised in Vancouver,
+            Toronto, Seoul, Istanbul and Madrid. I came back here for university
+            because of my good memories of growing up here, and so far I am
+            happy I made that decision!
           </p>
         </div>
         <div className={styles.education}>
