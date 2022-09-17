@@ -15,29 +15,24 @@ export default function About() {
       </div>
       <div className={styles.body} data-aos="zoom-in">
         <div className={styles.abouttext}>
-          <h2>Introduction</h2>
+          <h2>About Myself</h2>
           <br />
           <p>
-            Hobbies, - fencing, table tennis, watching soccer Interests, Places
-            I lived bbies, - fencing, table tennis, watching soccer Interests,
-            Places I livedbbies, - fencing, table tennis, watching soccer
-            Interests, Places I livedbbies, - fencing, table tennis, watching
-            soccer Interests, Places I livedbbies, - fencing, table tennis,
-            watching soccer Interests, Places I livedbbies, - fencing, table
-            tennis, watching soccer Interests, some pictures to introduce myself
-            better (more lively!)
+            I made this page to introduce more about myself to help getting to
+            know me better in person. <br />
             <br />
+            I'm a 3rd year student with a year of intern experience during the
+            previous year where I learned machine learning model development
+            using tabular healthcare data. In my free time as of now, I like to
+            learn front-end dev because of the interactive nature that the
+            process provides. <br />
             <br />
-            Places I've lived:
-            <br />
-            • Seoul, South Korea
-            <br />
-            • Toronto, Canada
-            <br />
-            • Vancouver, Canada
-            <br />
-            • Madrid, Spain
-            <br />• Istanbul, Türkiye
+            As a person, I'm a fencing hobbyist, a fan of the football team
+            Borussia Dortmund, a fan of the League of Legends team Damwon Gaming
+            and a brother to one younger brother. I was born in Seoul but raised
+            in Vancouver, Toronto, Seoul, Istanbul and Madrid. I came back here
+            for university because of my good past memories of growing up here,
+            and so far I am happy I made that decision!
           </p>
         </div>
         <div className={styles.education}>
