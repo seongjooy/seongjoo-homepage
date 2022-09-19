@@ -3,6 +3,7 @@ import Layout from "../../components/Layout"
 import * as styles from "../../styles/projects.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Link } from "gatsby"
 
 export default function Projects() {
   React.useEffect(() => {
@@ -21,12 +22,33 @@ export default function Projects() {
                 <br />
               </em>
               <a
-                href="https://www.youtube.com/watch?v=_91wIJ_akvU&t=141s&ab_channel=JongjinJungn"
+                href="https://www.youtube.com/watch?v=_91wIJ_akvU&t=141s&ab_channel=JongjinJung"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="/dali.png"></img>
+                <img src="/mapper.png"></img>
               </a>
+            </div>
+            <div className={styles.projectdescription}>
+              This is a city-mapping software developed using C++, STL and data
+              from OpenStreetMapAPI. The map is responsive; the level of detail
+              shown is adjusted based on zoom and window size. Dijkstra's and A*
+              algorithms were used for pathfinding between two points. This
+              project was developed with two other teammates using Git for
+              versioning.
+            </div>
+          </div>
+
+          <div className={styles.project}>
+            <div className={styles.projectthumbnail}>
+              <h3>A* Pathfinding Visualizer</h3>
+              <em>
+                Python, Pygame, A* <br />
+              </em>
+
+              <Link to="/projects/astar">
+                <img src="/astarpath.png"></img>
+              </Link>
             </div>
             <div className={styles.projectdescription}>
               Project description consisting of a few sentences and stack and
@@ -40,7 +62,7 @@ export default function Projects() {
               <em>
                 Python, CV, Mini-Xception <br />
               </em>
-              <img src="/dali.png"></img>
+              <img src="/gender_rec.png"></img>
             </div>
             <div className={styles.projectdescription}>
               Project description consisting of a few sentences and stack and
@@ -54,13 +76,29 @@ export default function Projects() {
               <em>
                 Python, Deep Learning, XGBoost <br />
               </em>
+              <img src="/xgb.png"></img>
+            </div>
+            <div className={styles.projectdescription}>
+              Project description consisting of a few sentences and stack and
+              things you built the project on and the purpose - was also testing
+              using multilayer perceptrons and random forests, but xgb gave the
+              best performance
+            </div>
+          </div>
+
+          {/* <div className={styles.project}>
+            <div className={styles.projectthumbnail}>
+              <h3>API Project</h3>
+              <em>
+                Javascript <br />
+              </em>
               <img src="/dali.png"></img>
             </div>
             <div className={styles.projectdescription}>
               Project description consisting of a few sentences and stack and
               things you built the project on and the purpose
             </div>
-          </div>
+          </div> */}
 
           <div className={styles.project}>
             <div className={styles.projectthumbnail}>
@@ -68,35 +106,7 @@ export default function Projects() {
               <em>
                 Python <br />
               </em>
-              <img src="/dali.png"></img>
-            </div>
-            <div className={styles.projectdescription}>
-              Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose
-            </div>
-          </div>
-
-          <div className={styles.project}>
-            <div className={styles.projectthumbnail}>
-              <h3>Dynamic Array Visualizer</h3>
-              <em>
-                Javascript, React <br />
-              </em>
-              <img src="/dali.png"></img>
-            </div>
-            <div className={styles.projectdescription}>
-              Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose
-            </div>
-          </div>
-
-          <div className={styles.project}>
-            <div className={styles.projectthumbnail}>
-              <h3>Dynamic Array Visualizer</h3>
-              <em>
-                Javascript, React <br />
-              </em>
-              <img src="/dali.png"></img>
+              <img src="/nnfs.png"></img>
             </div>
             <div className={styles.projectdescription}>
               Project description consisting of a few sentences and stack and

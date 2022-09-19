@@ -22,14 +22,13 @@ export default function About() {
             know me better in person. <br />
             <br />
             I'm a 3rd year student with a year of intern experience during the
-            previous year where I learned machine learning model development
-            using tabular healthcare data. Currently in my free time, I like
-            learning front-end dev because of the interactive nature that the
-            process provides. <br />
+            previous year where I learned ML model development mainly using
+            tabular healthcare data. Currently in my free time, I like learning
+            front end because of the interactive nature that the process
+            provides. <br />
             <br />
-            As a person, I'm a fencing hobbyist, a fan of the football club
-            Borussia Dortmund, a fan of Damwon Gaming and a brother to one
-            younger brother. I was born in Seoul but raised in Vancouver,
+            I'm a fencing hobbyist, a fan of the football club Dortmund and a
+            fan of Damwon Gaming. I was born in Seoul but raised in Vancouver,
             Toronto, Seoul, Istanbul and Madrid. I came back here for university
             because of my good memories of growing up here, and so far I am
             happy I made that decision!

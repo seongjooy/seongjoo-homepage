@@ -26,7 +26,7 @@ export default function Experience() {
                 meetings and communicating results
                 <br />
                 <br />• Developed an XGBoost-based model for the prediction of
-                septic shock onset in patients with an AUC of 0.86 <br />
+                septic shock onset in patients with a test AUC of 0.83 <br />
                 <br />• Pre-processed and used patient data from MIMIC-III and
                 Seoul St. Mary's Hospital, which consisted of their tabular
                 vital sign data over time <br />

@@ -1,0 +1,25 @@
+.videobox {
+  /* margin-top: 20px; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.backbutton {
+  margin: 10px 0px 0px 40px;
+  padding: 10px 6px 10px 6px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-left: 20px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.backbutton:hover {
+  font-weight: bold;
+}
+
+.backbutton:active {
+  color: rgba(0, 0, 0, 0.384);
+}

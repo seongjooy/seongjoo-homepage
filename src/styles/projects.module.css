@@ -46,7 +46,7 @@
 }
 
 .projectdescription {
-  flex: 40%;
+  flex: 50%;
   display: flex;
   justify-content: center;
   align-items: center;

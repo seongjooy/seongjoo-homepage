@@ -53,3 +53,9 @@ footer p {
   color: #bbb;
   margin: 40px auto;
 }
+
+#astar-video {
+  width: 500px;
+  height: 500px;
+  border-radius: 5%;
+}
