@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkseongjoo=self.webpackChunkseongjoo||[]).push([[883],{429:function(e,n,t){t.r(n),t.d(n,{default:function(){return a}});var o=t(7294),l=t(5991),r=t(1597),u=t(5414);function a(){return o.createElement(l.Z,null,o.createElement(u.Z,null,"Seong Joo Yoon"),o.createElement("div",null,o.createElement("h2",null,"Sorry, that page doesn't exist."),o.createElement(r.rU,{to:"/"},o.createElement("br",null),"Go To Home")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-b3546a985c40015d034c.js.map
