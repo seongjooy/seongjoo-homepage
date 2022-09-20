@@ -1,12 +1,11 @@
 {
   "name": "seongjoo",
   "private": true,
-  "description": "seongjoo's homepage",
+  "description": "Seong Joo's Homepage",
   "version": "0.1.0",
-  "homepage": "https://seongjooy.github.io/seongjoo-homepage",
   "license": "0BSD",
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -22,6 +21,7 @@
     "react-dom": "^18.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "prettier": "^2.7.1"
   },
   "repository": {
