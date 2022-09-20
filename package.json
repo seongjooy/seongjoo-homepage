@@ -3,7 +3,7 @@
   "private": true,
   "description": "seongjoo's homepage",
   "version": "0.1.0",
-  "homepage": "seongjooy.github.io",
+  "homepage": "https://seongjooy.github.io/seongjoo-homepage",
   "license": "0BSD",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
