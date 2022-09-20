@@ -5,9 +5,9 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 
 export default function Certificates() {
-  React.useEffect(() => {
-    Aos.init({ duration: 500 })
-  }, [])
+  // React.useEffect(() => {
+  //   Aos.init({ duration: 500 })
+  // }, [])
   return (
     <Layout>
       <h1 data-aos="zoom-in">Certificates / Awards</h1>
