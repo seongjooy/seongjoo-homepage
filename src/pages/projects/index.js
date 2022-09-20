@@ -30,12 +30,13 @@ export default function Projects() {
               </a>
             </div>
             <div className={styles.projectdescription}>
+              <br />
+              <br />
               This is a city-mapping software developed using C++, STL and data
               from OpenStreetMapAPI. The map is responsive; the level of detail
               shown is adjusted based on zoom and window size. Dijkstra's and A*
-              algorithms were used for pathfinding between two points. This
-              project was developed with two other teammates using Git for
-              versioning.
+              search were used for routing between two points. Developed with
+              two other team mates using Git for versioning.
             </div>
           </div>
 
@@ -51,9 +52,14 @@ export default function Projects() {
               </Link>
             </div>
             <div className={styles.projectdescription}>
-              Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose JIRA CONFLUENCE
-              SLACK
+              <br />
+              <br />
+              This is a pathfinding visualizer of A* search. It was coded using
+              Python's Pygame library, using its drawing methods to create the
+              layout. The user denotes the start and end points with the first
+              two clicks. Then, the user can draw blockages which are
+              dynamically drawn in black, and pressing space will activate the
+              A* search. Click on the image for a demo.
             </div>
           </div>
 
@@ -66,8 +72,14 @@ export default function Projects() {
               <img src="/gender_rec.png"></img>
             </div>
             <div className={styles.projectdescription}>
-              Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose
+              <br />
+              <br />
+              This is a CV project on gender recognition. A Mini-Xception model
+              was implemented and trained using an IJB-C image dataset.
+              Hyperparameters were tuned to improve performance, including batch
+              size, lr, # conv filters and # epochs, resulting in around 6%
+              improved accuracy. Downsampling to reduce class imbalance also
+              resulted in a 9% performance boost.
             </div>
           </div>
 
@@ -80,10 +92,13 @@ export default function Projects() {
               <img src="/xgb.png"></img>
             </div>
             <div className={styles.projectdescription}>
-              Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose - was also testing
-              using multilayer perceptrons and random forests, but xgb gave the
-              best performance
+              <br />
+              <br />
+              Developed an XGBoost-based model to predict the onset of septic
+              shock in patients 4 hours from time. Septic shock was defined
+              according to an int'l standard and patient data consisted of chart
+              data on their vital signs. Data was pre-processed from the
+              MIMIC-III database.
             </div>
           </div>
 
@@ -110,8 +125,12 @@ export default function Projects() {
               <img src="/nnfs.png"></img>
             </div>
             <div className={styles.projectdescription}>
-              Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose
+              <br />
+              <br />
+              Coded a neural network from scratch in order to understand how it
+              works under the hood. Coded layers, activation functions,
+              backprogagation, regularization, dropout etc. to complete the
+              model.
             </div>
           </div>
         </div>
