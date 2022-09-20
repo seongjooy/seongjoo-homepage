@@ -32,9 +32,11 @@ export default function Home() {
           interning as an ML developer working with the medical field. I mainly
           worked with Python and developed an XGBoost-based model which attempts
           to predict septic shock onset in patients using their vital sign data.
-          My short-term goal spanning a few years is to decide on and put myself
-          on track in an area of expertise that I will enjoy doing for a long
-          time. <br />
+          I used Slack, Jira and Confluence to communicate and schedule within
+          my team. My short-term goal spanning a few years is to decide on and
+          put myself on track in an area of expertise that I will enjoy doing
+          for a long time.
+          <br />
         </p>
       </div>
       <div className={styles.contacts} data-aos="flip-left">

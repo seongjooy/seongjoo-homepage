@@ -52,7 +52,8 @@ export default function Projects() {
             </div>
             <div className={styles.projectdescription}>
               Project description consisting of a few sentences and stack and
-              things you built the project on and the purpose
+              things you built the project on and the purpose JIRA CONFLUENCE
+              SLACK
             </div>
           </div>
 
