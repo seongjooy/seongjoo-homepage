@@ -12,7 +12,7 @@ export default function Astar() {
   return (
     <Layout>
       <h1>Projects</h1>
-      <a className={styles.backbutton} href="/projects">
+      <a className={styles.backbutton} href="../">
         Back to Projects
       </a>
       <div className={styles.videobox}>

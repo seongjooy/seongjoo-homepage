@@ -46,7 +46,7 @@ export default function Home() {
         >
           <img
             className={styles.contactbtn}
-            src="/linkedin_icon.png"
+            src="./linkedin_icon.png"
             alt="linkedin link"
           />
         </a>
@@ -57,7 +57,7 @@ export default function Home() {
         >
           <img
             className={styles.contactbtn}
-            src="/facebook_icon.png"
+            src="./facebook_icon.png"
             alt="facebook link"
           />
         </a>
@@ -68,14 +68,14 @@ export default function Home() {
         >
           <img
             className={styles.contactbtn}
-            src="/insta_icon.png"
+            src="./insta_icon.png"
             alt="instagram link"
           />
         </a>
         <a href="https://github.com/seongjooy" target="_blank" rel="noreferrer">
           <img
             className={styles.contactbtn}
-            src="/github_icon.png"
+            src="./github_icon.png"
             alt="github link"
           />
         </a>
