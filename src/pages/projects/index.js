@@ -26,7 +26,7 @@ export default function Projects() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="/mapper.png"></img>
+                <img src="/mapper.png" alt="mapper"></img>
               </a>
             </div>
             <div className={styles.projectdescription}>
@@ -48,7 +48,7 @@ export default function Projects() {
               </em>
 
               <Link to="/projects/astar">
-                <img src="/astarpath.png"></img>
+                <img src="/astarpath.png" alt="astar"></img>
               </Link>
             </div>
             <div className={styles.projectdescription}>
@@ -69,7 +69,7 @@ export default function Projects() {
               <em>
                 Python, CV, Mini-Xception <br />
               </em>
-              <img src="/gender_rec.png"></img>
+              <img src="/gender_rec.png" alt="cv proj"></img>
             </div>
             <div className={styles.projectdescription}>
               <br />
@@ -89,7 +89,7 @@ export default function Projects() {
               <em>
                 Python, Deep Learning, XGBoost <br />
               </em>
-              <img src="/xgb.png"></img>
+              <img src="/xgb.png" alt="septic xgb"></img>
             </div>
             <div className={styles.projectdescription}>
               <br />
@@ -122,7 +122,7 @@ export default function Projects() {
               <em>
                 Python <br />
               </em>
-              <img src="/nnfs.png"></img>
+              <img src="/nnfs.png" alt="nnfs"></img>
             </div>
             <div className={styles.projectdescription}>
               <br />

@@ -38,7 +38,11 @@ export default function Experience() {
             </div>
 
             <a href="https://spass.ai" target="_blank" rel="noreferrer">
-              <img className={styles.logo} src="/spass.png"></img>
+              <img
+                className={styles.logo}
+                src="/spass.png"
+                alt="spass logo"
+              ></img>
             </a>
           </div>
         </div>

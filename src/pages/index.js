@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
@@ -20,7 +19,7 @@ export default function Home() {
       </div>
 
       <div className={styles.body} data-aos="flip-left">
-        <img src="/dp.jpg" alt="display picture"></img>
+        <img src="/dp.jpg" alt="profile"></img>
         <p>
           <b>E-mail:</b> seongjooyoon@gmail.com
           <br />

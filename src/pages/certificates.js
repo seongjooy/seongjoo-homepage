@@ -35,7 +35,11 @@ export default function Certificates() {
             </p>
           </div>
           <a href="https://vectorinstitute.ai" target="_blank" rel="noreferrer">
-            <img className={styles.logo} src="/vector.png"></img>
+            <img
+              className={styles.logo}
+              src="/vector.png"
+              alt="vector logo"
+            ></img>
           </a>
         </div>
         <div className={styles.certificates}>
@@ -50,7 +54,7 @@ export default function Certificates() {
             </p>
           </div>
           <a href="https:/www.ece.utoronto.ca" target="_blank" rel="noreferrer">
-            <img className={styles.logo} src="/uoft.png"></img>
+            <img className={styles.logo} src="/uoft.png" alt="uoft logo"></img>
           </a>
         </div>
         <div className={styles.certificates}>
@@ -69,7 +73,11 @@ export default function Certificates() {
             target="_blank"
             rel="noreferrer"
           >
-            <img className={styles.logo} src="/uwaterloo.png"></img>
+            <img
+              className={styles.logo}
+              src="/uwaterloo.png"
+              alt="waterloo logo"
+            ></img>
           </a>
         </div>
         <div className={styles.certificates}>
@@ -88,7 +96,7 @@ export default function Certificates() {
             target="_blank"
             rel="noreferrer"
           >
-            <img className={styles.logo} src="/sfa.png"></img>
+            <img className={styles.logo} src="/sfa.png" alt="kff logo"></img>
           </a>
         </div>
       </div>
