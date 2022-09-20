@@ -3,13 +3,15 @@ import Layout from "../components/Layout"
 import * as styles from "../styles/certificates.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Helmet from "react-helmet"
 
 export default function Certificates() {
-  // React.useEffect(() => {
-  //   Aos.init({ duration: 500 })
-  // }, [])
+  React.useEffect(() => {
+    Aos.init({ duration: 500 })
+  }, [])
   return (
     <Layout>
+      <Helmet>Seong Joo Yoon</Helmet>
       <h1 data-aos="zoom-in">Certificates / Awards</h1>
       <div className={styles.body} data-aos="zoom-in">
         <div className={styles.certificates}>

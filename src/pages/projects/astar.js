@@ -4,6 +4,7 @@ import * as styles from "../../styles/astar.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import astar_demo from "../../../static/astar_demo.mp4"
+import Helmet from "react-helmet"
 
 export default function Astar() {
   React.useEffect(() => {
@@ -11,6 +12,7 @@ export default function Astar() {
   }, [])
   return (
     <Layout>
+      <Helmet>Seong Joo Yoon</Helmet>
       <h1>Projects</h1>
       <a className={styles.backbutton} href="../">
         Back to Projects

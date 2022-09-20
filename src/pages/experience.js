@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import * as styles from "../styles/experience.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Helmet from "react-helmet"
 
 export default function Experience() {
   React.useEffect(() => {
@@ -10,6 +11,8 @@ export default function Experience() {
   }, [])
   return (
     <Layout>
+      <Helmet>Seong Joo Yoon</Helmet>
+
       <div data-aos="zoom-in">
         <h1>Experience</h1>
         <div className={styles.body}>
@@ -40,7 +43,7 @@ export default function Experience() {
             <a href="https://spass.ai" target="_blank" rel="noreferrer">
               <img
                 className={styles.logo}
-                src="/spass.png"
+                src="./spass.png"
                 alt="spass logo"
               ></img>
             </a>

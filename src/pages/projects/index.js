@@ -4,6 +4,7 @@ import * as styles from "../../styles/projects.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import { Link } from "gatsby"
+import Helmet from "react-helmet"
 
 export default function Projects() {
   React.useEffect(() => {
@@ -11,6 +12,7 @@ export default function Projects() {
   }, [])
   return (
     <Layout>
+      <Helmet>Seong Joo Yoon</Helmet>
       <div data-aos="zoom-in">
         <h1>Projects</h1>
         <div className={styles.projectcontainer}>

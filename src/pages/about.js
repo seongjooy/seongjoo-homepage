@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import * as styles from "../styles/about.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import Helmet from "react-helmet"
 
 export default function About() {
   React.useEffect(() => {
@@ -10,6 +11,7 @@ export default function About() {
   }, [])
   return (
     <Layout>
+      <Helmet>Seong Joo Yoon</Helmet>
       <div className={styles.header}>
         <h1 data-aos="zoom-in">About</h1>
       </div>

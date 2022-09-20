@@ -3,6 +3,7 @@ import Layout from "../components/Layout"
 import * as styles from "../styles/home.module.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
+import { Helmet } from "react-helmet"
 
 export default function Home() {
   React.useEffect(() => {
@@ -10,6 +11,7 @@ export default function Home() {
   }, [])
   return (
     <Layout>
+      <Helmet>Seong Joo Yoon</Helmet>
       <div className={styles.header} data-aos="flip-left">
         <h2>Seong Joo Yoon</h2>
         <h3>
