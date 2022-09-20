@@ -19,7 +19,7 @@ export default function Home() {
       </div>
 
       <div className={styles.body} data-aos="flip-left">
-        <img src="/dp.jpg" alt="profile"></img>
+        <img src="./dp.jpg" alt="profile"></img>
         <p>
           <b>E-mail:</b> seongjooyoon@gmail.com
           <br />
