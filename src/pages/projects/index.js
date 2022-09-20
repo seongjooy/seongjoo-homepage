@@ -71,7 +71,7 @@ export default function Projects() {
               <em>
                 Python, CV, Mini-Xception <br />
               </em>
-              <img src=".gender_rec.png" alt="cv proj"></img>
+              <img src="./gender_rec.png" alt="cv proj"></img>
             </div>
             <div className={styles.projectdescription}>
               <br />
