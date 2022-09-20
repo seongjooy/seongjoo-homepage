@@ -6,6 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/seongjoo-homepage",
   plugins: ["gatsby-plugin-react-helmet"],
 }
