@@ -1,10 +1,12 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "seongjoo",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "seongjoo's homepage",
   "version": "0.1.0",
+  "homepage": "seongjooy.github.io",
   "license": "0BSD",
   "scripts": {
+    "deploy": "npm run build && gh-pages -d build",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
